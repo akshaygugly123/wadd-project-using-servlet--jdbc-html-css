@@ -1,0 +1,29 @@
+/* CSS Document */
+.facultylist >ul >li{
+padding:5px;
+margin:5px;
+height:110px;
+text-align:left;
+width:50%;
+margin-left:40%;	
+}
+.facultylist >ul> li> img{
+	width:100px;
+	height:100px;
+	float:left;
+	padding:10px;
+}
+.facultylist>ul>li>a{
+		color:#000;
+		padding:3px;
+		background:#999;
+		font-weight:bold;
+		text-decoration:none;
+}
+.facultylist>ul>li>a#login{
+	margin-left:50px;
+}
+.facultylist>ul>li>a:hover{
+background:#444;
+color:#fff;	
+}

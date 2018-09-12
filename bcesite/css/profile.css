@@ -1,0 +1,30 @@
+/* CSS Document */
+.profile{
+padding:20px;
+text-align:center;
+	
+}
+.profile img{
+	width:150px;
+	height:150px;
+	
+}
+.profile div{
+	padding:5px;	
+}
+.profile h3{
+	text-decoration:underline;	
+	text-align: center;
+	color:#666;
+}
+.profile ul li{
+	display:block;
+	text-align:left;
+	margin-left:20%;
+	font-weight:bold;
+}
+.profile-content{
+	background:#6e6e6e;
+	border-radius:30px;
+	color:#CCC;
+}

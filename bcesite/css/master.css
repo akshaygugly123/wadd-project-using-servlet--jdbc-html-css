@@ -1,0 +1,220 @@
+/* CSS Document */
+html{
+	padding:0;
+	margin:0;
+}
+body{
+	padding:0;
+	margin:0;
+	
+}
+div{
+	margin:0px;
+	padding:0px;
+}
+h1{
+	padding:0;
+	margin: 5px;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	
+}
+.links a,.footer a{
+	text-decoration:none;
+	color:#FFF;	
+}
+.header{
+	background-color: #bebebe;
+	display:block;
+	/*height: 100px;*/
+	width: 100%;
+	text-align: left;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	
+	overflow:visible;
+}
+a img{
+	height:100px;
+	width:100px;
+	top:10px;
+	left:10px;
+	float:left;
+	margin-left:25%;
+	padding-bottom:5px;
+	display:block;
+	margin-bottom:10px;
+	}
+.links{
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	background-color: #000;
+	color:#fff;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	display:block;
+	
+}
+ul{
+	list-style:none;	
+	margin:0;
+	padding:0px;;
+}
+li{
+display:inline-block;
+text-align:center;
+padding:10px;
+}
+li a {
+	margin:0;
+	padding:0px;	
+}
+.dropdown a{
+	margin:0;
+	padding:0px;
+	text-align:center;
+	display:block;
+}
+
+.dropdown{
+	margin:0;
+	padding:0;
+	display:none;
+	position:absolute;
+	max-width:200px;
+	overflow:visible;
+	background: #999;
+	text-align:center;
+	opacity:0.95;
+}
+.dropdown a{
+	margin:0;
+	padding:5px;	
+}
+.dropdown a:first-child {
+	padding-top:0px	;
+	padding-bottom:0;
+}
+.dropdown a:hover{
+	background:#FFF;
+	color:#000;
+}
+.links li:hover a{
+		color:#000;
+}
+.links li:hover {
+	background:#FFF;
+	color:#000;
+}
+
+.dept:hover > div.dropdown , .research:hover > div.dropdown{
+	display:block;
+}
+.main{
+	
+}
+.footer{
+	background:#000;
+	margin:0;
+	padding:10px;
+	widht:100%;
+	display:block;
+}
+#left{
+width:50%;
+float:left;
+
+}
+#right{
+width:50%;
+float:left;
+
+text-align:center;	
+}
+.footer >div > a{
+	display:block;
+	text-align:center;
+	padding:5px;
+	font-weight:200;
+}
+.footer h2{
+	color:#FFF;
+	text-align:center;
+}
+.footer p {
+color:#fff;
+text-align:center;	
+font-weight:bold;
+}
+.loginbox {
+  width: 265px;
+  height:300px;
+  background: #444;
+  box-sizing: border-box;
+  position:relative;
+  color: #fff;
+  margin-top:10px;
+  margin-bottom:10px;;
+  margin-left:40%;
+ display:block;
+ 
+}
+.loginbox h2{
+  margin: 15px;
+}
+.loginbox h2{
+  text-align: center;
+}
+.form{
+  padding: 15px;
+  margin:10px;
+}
+.form p{
+  margin:0 0 5px ;
+  padding: 0;
+  font-weight: bold;
+}
+.form input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form select{
+  margin-bottom: 15px;
+}
+.form input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  outline:none;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+.form input[type="submit"]{
+  border: none;
+  height: 30px;
+  color: #fff;
+  background: #f00;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.form input[type="submit"]:hover{
+  cursor: pointer;
+  background: #ff0;
+  color: #444;
+}
+
+
+.loginbox .form a{
+  text-decoration: none;
+}
